@@ -1,0 +1,84 @@
+aid: insight-partners
+name: Insight Partners
+description: >-
+  Insight Partners is a global software-focused venture capital and private equity firm founded in 1995
+  by Jeff Horing and Jerry Murdock and headquartered in New York City, with additional offices in London,
+  Tel Aviv, and Palo Alto. The firm invests in high-growth technology and software ScaleUp companies at
+  every stage from early (Series A) through growth and late-stage pre-IPO, deploying checks that range from
+  roughly $5M up to $500M+ and pairing capital with a dedicated in-house operations team (Insight Onsite)
+  that provides talent, sales, marketing, and product expertise to accelerate scaling. Sector emphasis
+  spans enterprise software broadly, including cybersecurity, fintech, AI/ML, DevOps, data infrastructure,
+  and healthtech. With approximately $90B in regulatory assets under management as of 2025 and more than
+  875 companies backed worldwide, Insight is one of the largest technology investors in the world, with a
+  portfolio and exit history that includes Twitter, Shopify, DocuSign, Wix, SentinelOne, HelloFresh, N26,
+  Alteryx, and AppDynamics.
+image: https://www.insightpartners.com/favicon.ico
+x-type: venture-capital
+x-category: Growth Equity
+created: '2026-07-17'
+modified: '2026-07-17'
+specificationVersion: '0.20'
+tags:
+  - Venture Capital
+  - Growth Equity
+  - Private Equity
+  - Series A
+  - Growth
+  - Software
+  - Enterprise
+  - Cybersecurity
+  - Fintech
+  - Artificial Intelligence
+  - DevOps
+  - Data Infrastructure
+  - Healthtech
+  - New York
+  - North America
+apis: []
+common:
+  - type: Website
+    url: https://www.insightpartners.com/
+  - type: Portfolio
+    url: https://www.insightpartners.com/portfolio/
+  - type: Portfolio
+    url: portfolio/insight-partners-portfolio.yml
+  - type: Team
+    url: https://www.insightpartners.com/team/
+  - type: InvestmentThesis
+    url: https://www.insightpartners.com/onsite/
+  - type: Blog
+    url: https://www.insightpartners.com/ideas/
+  - type: News
+    url: https://www.insightpartners.com/ideas/search/?tax=idea_types&term=news,press
+  - type: Jobs
+    url: https://jobs.insightpartners.com/jobs
+  - type: Contact
+    url: https://www.insightpartners.com/contact/
+  - type: Crunchbase
+    url: https://www.crunchbase.com/organization/insight-partners
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/insight-partners
+  - type: Twitter
+    url: https://twitter.com/insightpartners
+  - type: Features
+    data:
+      - "Stage: Early (Series A), Growth (Series B-D), Late-stage / pre-IPO"
+      - "Typical check: ~$5M-$500M+"
+      - "Sectors: enterprise software, cybersecurity, fintech, AI/ML, DevOps, data infrastructure, healthtech"
+      - "Geography: Global; US-based with offices in New York, London, Tel Aviv, Palo Alto"
+      - "AUM: ~$90B regulatory assets under management (2025, self-reported)"
+      - "Portfolio: 875+ companies backed worldwide"
+      - "Founded: 1995"
+      - "HQ: New York, New York, USA"
+    sources:
+      - https://www.insightpartners.com/
+      - https://en.wikipedia.org/wiki/Insight_Partners
+    updated: '2026-07-17'
+maintainers:
+  - FN: Kin Lane
+    email: info@apievangelist.com
+    url: https://apievangelist.com
+  - FN: APIs.json
+    url: http://apisjson.org
+  - FN: Insight Partners
+    url: https://www.insightpartners.com/
