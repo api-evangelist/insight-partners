@@ -2,13 +2,20 @@
   "repo": "insight-partners",
   "feeds": [
     {
+      "source": "https://www.insightpartners.com/feed/",
+      "feed_url": "https://www.insightpartners.com/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
       "source": "https://www.insightpartners.com/onsite/",
       "feed_url": "https://www.insightpartners.com/feed/",
       "title": "",
-      "saved": 2,
+      "saved": 0,
       "method": "discovered"
     }
   ],
-  "post_count": 2,
-  "fetched": "2026-07-20T13:31:34Z"
+  "post_count": 14,
+  "fetched": "2026-08-01T15:49:00Z"
 }
