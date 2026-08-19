@@ -4788,16 +4788,6 @@ companies:
   is_api_provider: false
   slug: mediaspectrum
   matched_by: domain
-- name: Medidata Solutions
-  description: Medidata Solutions helps the world&#039;s leading pharmaceutical, biotechnology, medical
-    device and research organizations maximize the value of their clinical research investments.
-  sector: healthcare
-  status: unknown
-  source: https://www.insightpartners.com/portfolio/medidata-solutions/
-  in_network: true
-  is_api_provider: false
-  slug: medidata-solutions
-  matched_by: name-slug
 - name: Mentez
   url: http://www.mentez.com/
   description: Mentez is the leading publisher of social games on Brazil&#039;s Orkut and Facebook platforms.
