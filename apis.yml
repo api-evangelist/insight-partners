@@ -12,6 +12,17 @@ description: >-
   875 companies backed worldwide, Insight is one of the largest technology investors in the world, with a
   portfolio and exit history that includes Twitter, Shopify, DocuSign, Wix, SentinelOne, HelloFresh, N26,
   Alteryx, and AppDynamics.
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
