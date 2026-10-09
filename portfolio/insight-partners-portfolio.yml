@@ -339,7 +339,7 @@ companies:
   sector: healthcare
   status: unknown
   source: https://www.insightpartners.com/portfolio/allscripts-healthcare-solutions/
-  slug: allscripts-healthcare-solutions
+  slug: veradigm
   in_network: true
   is_api_provider: false
   matched_by: name-slug
@@ -5171,7 +5171,7 @@ companies:
   source: https://www.insightpartners.com/portfolio/ntop/
   in_network: true
   is_api_provider: false
-  slug: ntop
+  slug: ntop-com
   matched_by: domain
 - name: Numetric
   url: http://www.numetric.com/
