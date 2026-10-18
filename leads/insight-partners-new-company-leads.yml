@@ -268,13 +268,6 @@ leads:
   source_vc: insight-partners
   source: https://www.insightpartners.com/portfolio/virgin-pulse/
   stub_created: false
-- name: Wix.com
-  url: ''
-  suggested_slug: wixcom
-  sector: ''
-  source_vc: insight-partners
-  source: https://www.insightpartners.com/portfolio/wix-com/
-  stub_created: false
 - name: Yoom (fka Tetavi)
   url: https://www.tetavi.com/
   suggested_slug: tetavi-com

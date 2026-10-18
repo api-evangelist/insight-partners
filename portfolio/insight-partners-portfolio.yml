@@ -3,9 +3,9 @@ method: searched
 source: https://www.insightpartners.com/portfolio/
 summary:
   portfolio_total: 797
-  in_network: 757
-  api_providers: 228
-  missing: 40
+  in_network: 758
+  api_providers: 229
+  missing: 39
   stubs_created: 0
 companies:
 - name: 1047 Games
@@ -7820,9 +7820,12 @@ companies:
     stunning flash-based content online that is totally personalized and all without the need to code.
   status: unknown
   source: https://www.insightpartners.com/portfolio/wix-com/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: wixcom
+  in_network: true
+  is_api_provider: true
+  url: https://www.wix.com
+  x-url-source: web search 2026-10-18
+  slug: wix
+  matched_by: domain
 - name: Wonderful
   url: https://www.wonderful.ai/
   description: Wonderful provides an integrated agent platform allowing enterprises to build, manage and
