@@ -2,8 +2,8 @@ generated: '2026-07-17'
 method: searched
 source: https://www.insightpartners.com/portfolio/
 summary:
-  portfolio_total: 798
-  in_network: 758
+  portfolio_total: 797
+  in_network: 757
   api_providers: 228
   missing: 40
   stubs_created: 0
@@ -49,8 +49,8 @@ companies:
   source: https://www.insightpartners.com/portfolio/3p-learning-pty/
   in_network: false
   is_api_provider: false
-  x-name-collision: 3p-learning-pty
   suggested_slug: mathletics-com
+  x-name-collision: 3p-learning-pty
 - name: 4M Analytics
   description: 4M ANALYTICS is a subsurface-infrastructure geo-data company
   status: unknown
@@ -163,8 +163,8 @@ companies:
   source: https://www.insightpartners.com/portfolio/academic-partnerships/
   in_network: false
   is_api_provider: false
-  x-name-collision: academic-partnerships
   suggested_slug: academicpartnerships-com
+  x-name-collision: academic-partnerships
 - name: Achieve3000
   url: http://www.achieve3000.com/
   description: Achieve3000 delivers differentiated literacy solutions proven to increase reading comprehension,
@@ -205,8 +205,8 @@ companies:
   source: https://www.insightpartners.com/portfolio/acuant/
   in_network: false
   is_api_provider: false
-  x-name-collision: acuant
   suggested_slug: acuantcorp-com
+  x-name-collision: acuant
 - name: Adaptive Shield
   url: https://www.adaptive-shield.com/
   description: Adaptive Shield, the leading SaaS Security Posture Management (SSPM) company, enables security
@@ -274,7 +274,9 @@ companies:
   slug: agora
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.agora.finance/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Aily Labs
   url: https://ailylabs.com/
   description: Pioneer of an AI-powered decision intelligence app for global enterprises
@@ -341,8 +343,8 @@ companies:
   source: https://www.insightpartners.com/portfolio/alma/
   in_network: false
   is_api_provider: false
-  x-name-collision: alma
   suggested_slug: helloalma-com
+  x-name-collision: alma
 - name: Alteryx
   description: Alteryx is revolutionizing business through data science and analytics, empowering every
     data producer, regardless of technical acumen, to transform their data into actionable insights.
@@ -351,7 +353,9 @@ companies:
   slug: alteryx
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.alteryx.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Altitude Software
   description: Altitude is an eCRM solutions provider that offers an integrated suite of contact center
     management software.
@@ -360,7 +364,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: altitude-software
-  matched_by: name-slug
+  matched_by: domain
+  url: https://altitudeapac.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Altruist
   url: https://altruist.com/
   description: Altruist is a Los Angeles-based company on a mission to make financial advisors more efficient,
@@ -697,7 +703,9 @@ companies:
   in_network: true
   is_api_provider: true
   slug: authorizenet
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.authorize.net/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Autobahn Therapeutics
   description: Autobahn Therapeutics is a biotechnology company developing a portfolio of neuropsychiatric
     and neuroimmunologic clinical candidates.
@@ -707,7 +715,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: autobahn-therapeutics
-  matched_by: name-slug
+  matched_by: domain
+  url: https://autobahntx.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Automattic
   url: http://automattic.com/
   description: Automattic Inc. is a startup from a handful of people passionate about making the web a
@@ -737,7 +747,9 @@ companies:
   slug: automox
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.automox.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Averna Therapeutics
   description: Averna Therapeutics is developing genomic medicines that insert therapeutic genes into
     safe harbors within the DNA.
@@ -747,7 +759,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: averna-therapeutics
-  matched_by: name-slug
+  matched_by: domain
+  url: https://avernatx.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Aviatrix
   description: Networking
   status: unknown
@@ -755,7 +769,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: aviatrix
-  matched_by: name-slug
+  matched_by: domain
+  url: https://aviatrix.ai/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: AVO
   url: https://www.avonow.com/
   description: Avo is a customizable amenity platform designed to help employers and real estate operators
@@ -843,7 +859,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: basking-biosciences
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.baskingbiosciences.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Beatport
   url: http://www.beatport.com/
   description: Beatport is the online leader for electronic music downloads providing music to DJs and
@@ -1156,7 +1174,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: buynomics
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.buynomics.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Bynder
   url: https://www.bynder.com/en/
   description: Bynder is the fastest way to professionally manage digital files.
@@ -1248,7 +1268,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: capella-university
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.capella.edu/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: CareMerge
   url: http://www.caremerge.com/web/
   description: Caremerge is a revolutionary, cloud-based care coordination network that enhances communication
@@ -1341,7 +1363,9 @@ companies:
   slug: checkmarx
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://checkmarx.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Checkout.com
   url: https://www.checkout.com/
   description: Checkout.com helps companies accept more payments around the world through one integration.
@@ -1544,8 +1568,8 @@ companies:
   source: https://www.insightpartners.com/portfolio/command-zero/
   in_network: false
   is_api_provider: false
-  x-name-collision: command-zero
   suggested_slug: cmdzero-io
+  x-name-collision: command-zero
 - name: commandbar
   url: https://www.commandbar.com/
   description: software levels up user experience in many leading SaaS apps
@@ -1622,8 +1646,8 @@ companies:
   source: https://www.insightpartners.com/portfolio/conga/
   in_network: false
   is_api_provider: false
-  x-name-collision: conga
   suggested_slug: getconga-com
+  x-name-collision: conga
 - name: ConnectCapital
   description: ConnectCapital was established in 2000 to make private equity investments in early and
     expansion stage companies that provide enterprise application and infrastructure software and solutions.
@@ -1765,7 +1789,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: customer-analytics
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.customeranalytics.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: CUUP, Inc.
   url: https://shopcuup.com/
   description: CUUP is a high-growth, direct to consumer lingerie company founded in November 2018.
@@ -1847,8 +1873,8 @@ companies:
   source: https://www.insightpartners.com/portfolio/dash/
   in_network: false
   is_api_provider: false
-  x-name-collision: dash
   suggested_slug: dash-app-com
+  x-name-collision: dash
 - name: Databricks
   url: https://www.databricks.com/
   description: Databricks is an AI cloud data platform that interacts with corporate information stored
@@ -1925,8 +1951,10 @@ companies:
   source: https://www.insightpartners.com/portfolio/dazz/
   in_network: true
   is_api_provider: false
-  slug: dazz
-  matched_by: name-slug
+  slug: wiz
+  matched_by: domain
+  url: https://www.wiz.io/blog/wiz-to-acquire-dazz-transforming-risk-remediation-from-cloud-to-code
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Deci AI
   url: https://deci.ai/
   description: Deci enables deep learning to live up to its true potential by using AI to build better
@@ -2068,8 +2096,8 @@ companies:
   source: https://www.insightpartners.com/portfolio/dext/
   in_network: false
   is_api_provider: false
-  x-name-collision: dext
   suggested_slug: receipt-bank-com
+  x-name-collision: dext
 - name: Digital Room
   url: http://www.digitalroominc.com/
   description: Digital Room Inc. owns and operates multiple online printing brands that produce a wide
@@ -2109,6 +2137,7 @@ companies:
   is_api_provider: false
   slug: direct-revenue
   matched_by: name-slug
+  x-url-candidate: https://www.directrevenue.co/
 - name: Distrokid
   url: https://distrokid.com/
   description: Founded in 2013, DistroKid distributes 30-40% of all new music in the world.
@@ -2283,7 +2312,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: earnix
-  matched_by: name-slug
+  matched_by: domain
+  url: https://earnix.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Echo AI (fka Pathlight)
   url: https://www.pathlight.com/
   description: Pathlight is a Realtime Performance Management (RPM) platform that allows large, customer-facing
@@ -2292,8 +2323,8 @@ companies:
   source: https://www.insightpartners.com/portfolio/echoai/
   in_network: false
   is_api_provider: false
-  x-name-collision: echo-ai-fka-pathlight
   suggested_slug: pathlight-com
+  x-name-collision: echo-ai-fka-pathlight
 - name: Eden Health
   url: https://www.edenhealth.com/
   description: Eden Health is a nationally recognized medical practice that makes it easier for HR teams
@@ -2393,8 +2424,8 @@ companies:
   source: https://www.insightpartners.com/portfolio/enable/
   in_network: false
   is_api_provider: false
-  x-name-collision: enable
   suggested_slug: enable-com
+  x-name-collision: enable
 - name: ENGIE Insight Services
   url: http://www.ecova.com/
   description: Ecova is a total energy and sustainability management company.
@@ -2402,8 +2433,8 @@ companies:
   source: https://www.insightpartners.com/portfolio/engie-insight-services/
   in_network: false
   is_api_provider: false
-  x-name-collision: engie-insight-services
   suggested_slug: ecova-com
+  x-name-collision: engie-insight-services
 - name: Enigma
   description: Enigma provides content management &amp; eCommerce systems for complex manufacturers.
   status: unknown
@@ -2411,6 +2442,7 @@ companies:
   in_network: false
   is_api_provider: false
   suggested_slug: enigma
+  x-url-candidate: https://www.enigma.com/
 - name: Ensighten
   url: http://www.ensighten.com/
   description: Ensighten, the leader in enterprise data and tag management, boosts marketing agility and
@@ -2543,8 +2575,8 @@ companies:
   source: https://www.insightpartners.com/portfolio/exactera/
   in_network: false
   is_api_provider: false
-  x-name-collision: exactera
   suggested_slug: crossborder-ai
+  x-name-collision: exactera
 - name: Excite Japan Co., Ltd. (JASDAQ:3754)
   description: The McKinley Group was acquired by Excite in 1996.
   status: unknown
@@ -2641,8 +2673,8 @@ companies:
   source: https://www.insightpartners.com/portfolio/famous/
   in_network: false
   is_api_provider: false
-  x-name-collision: famous
   suggested_slug: famous-co
+  x-name-collision: famous
 - name: Fanatics
   url: http://fanaticsinc.com/
   description: Fanatics, the market leader for licensed sports merchandise, offers the largest assortment
@@ -3070,8 +3102,8 @@ companies:
   source: https://www.insightpartners.com/portfolio/genesis-global/
   in_network: false
   is_api_provider: false
-  x-name-collision: genesis
   suggested_slug: genesis-global
+  x-name-collision: genesis
 - name: GetPaid
   description: The GETPAID Corporation is the global leader in delivering software and services to support
     Lean Working Capital Management.
@@ -3080,7 +3112,9 @@ companies:
   in_network: true
   is_api_provider: true
   slug: getpaid
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.getpaid.io/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: GitGuardian
   url: https://www.gitguardian.com/
   description: GitGuardian is an end-to-end NHI Security platform
@@ -3119,6 +3153,7 @@ companies:
   is_api_provider: false
   slug: globalcare-inc
   matched_by: name-slug
+  x-url-candidate: https://globalcare.io
 - name: Govly
   url: https://www.govly.com/
   description: Govly was created with the mission of making public sector procurement simple, transparent
@@ -3420,8 +3455,8 @@ companies:
   source: https://www.insightpartners.com/portfolio/iad/
   in_network: false
   is_api_provider: false
-  x-name-collision: iad
   suggested_slug: iadinternational-com
+  x-name-collision: iad
 - name: Identiq
   url: https://www.identiq.com/
   description: Identiq is a peer-to-peer identity verification network that allows its members, including
@@ -3474,6 +3509,7 @@ companies:
   is_api_provider: false
   slug: illuminet
   matched_by: name-slug
+  x-url-candidate: https://illuminet.co/
 - name: Ilumno
   url: http://ilumno.com/en/inversores/
   description: ILUMNO looks at expanding and modernizing higher education institutions on a financial
@@ -3575,8 +3611,8 @@ companies:
   source: https://www.insightpartners.com/portfolio/inhabit/
   in_network: false
   is_api_provider: false
-  x-name-collision: inhabit
   suggested_slug: inhabitiq-com
+  x-name-collision: inhabit
 - name: Inovalon
   url: https://www.inovalon.com/
   sector: healthcare
@@ -3730,7 +3766,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: jagex
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.jagex.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Jama Software
   url: https://www.jamasoftware.com/
   description: Jama Software provides the leading platform for requirements, risk, and test management.
@@ -3766,7 +3804,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: jedox
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.jedox.com/en/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Jellyfish
   url: https://jellyfish.co/
   description: Jellyfish is the pioneer Engineering Management Platform that enables engineering leaders
@@ -3939,8 +3979,8 @@ companies:
   source: https://www.insightpartners.com/portfolio/kintsugi/
   in_network: false
   is_api_provider: false
-  x-name-collision: kintsugi
   suggested_slug: kintsugihello-com
+  x-name-collision: kintsugi
 - name: Kira Systems
   url: https://www.kirasystems.com/
   description: Kira Systems’ technology is the most used and trusted software for contract review and
@@ -3997,7 +4037,9 @@ companies:
   slug: kpler
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.kpler.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Kubeshop
   url: https://testkube.io/
   description: Testkube is focused on solving challenges teams face when scaling software test automation
@@ -4035,7 +4077,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: kyverna-therapeutics
-  matched_by: name-slug
+  matched_by: domain
+  url: https://kyvernatx.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Lakeside Software
   url: https://www.lakesidesoftware.com/
   description: Lakeside Software provides IT organizations worldwide with tools for desktop transformation,
@@ -4139,8 +4183,8 @@ companies:
   source: https://www.insightpartners.com/portfolio/trialjectory/
   in_network: false
   is_api_provider: false
-  x-name-collision: leal-health-fka-trialjectory
   suggested_slug: trialjectory-com
+  x-name-collision: leal-health-fka-trialjectory
 - name: LeanIX
   url: https://www.leanix.net/en/
   description: LeanIX offers a Software-as-a-Service (SaaS) application for Enterprise Architecture (EA),
@@ -4355,7 +4399,9 @@ companies:
   in_network: true
   is_api_provider: true
   slug: lytx
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.lytx.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: M2P Fintech
   url: https://m2pfintech.com/
   description: leading financial Infrastructure company
@@ -4494,6 +4540,7 @@ companies:
   is_api_provider: false
   slug: meta4
   matched_by: name-slug
+  x-url-candidate: https://meta4.ai
 - name: Metabase
   url: https://www.metabase.com/
   description: Metabase is bringing data tools with the elegance and simplicity of consumer products to
@@ -4513,6 +4560,7 @@ companies:
   is_api_provider: false
   slug: metalogix
   matched_by: name-slug
+  x-url-candidate: https://metalogix.ai
 - name: middesk
   url: https://www.middesk.com/
   description: enterprise leadership development platform
@@ -4641,8 +4689,8 @@ companies:
   source: https://www.insightpartners.com/portfolio/mv-sistemas/
   in_network: false
   is_api_provider: false
-  x-name-collision: mv-sistemas
   suggested_slug: mvsistemas-com-br
+  x-name-collision: mv-sistemas
 - name: MYSALE GROUP PLC
   url: https://www.mysalegroup.com/
   description: MySale is a leading international online retailer with established online flash sales and
@@ -4702,15 +4750,18 @@ companies:
   in_network: false
   is_api_provider: false
   suggested_slug: netsmart-technologies
+  x-url-candidate: https://www.ntst.com/ai
 - name: New Relic
   description: New Relic is on a mission to create a better web and mobile experience for everyone by
     making apps faster and more reliable.
   status: unknown
   source: https://www.insightpartners.com/portfolio/new-relic/
-  slug: new-relic
+  slug: microsoft-azure
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://newrelic.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Newegg
   url: http://www.newegg.com/
   description: Newegg.com is an online eCommerce company that sells over 25,000 computer hardware and
@@ -4749,8 +4800,8 @@ companies:
   source: https://www.insightpartners.com/portfolio/nexus-cognitive/
   in_network: false
   is_api_provider: false
-  x-name-collision: nexus-one
   suggested_slug: nexuscognitive-com
+  x-name-collision: nexus-one
 - name: Nfinite
   url: https://www.nfinite.app/
   description: nfinite is a SaaS Visuals Merchandizing platform that helps retailers grow their business.
@@ -4958,7 +5009,9 @@ companies:
   slug: onetrust
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.onetrust.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: OnStation
   description: OnStation is the leading provider of automatic email-based customer lifecycle management
     (CLM) solutions for automotive dealerships and service centers.
@@ -4967,7 +5020,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: onstation
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.onstationapp.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: OpenAI
   url: https://openai.com/
   description: OpenAI is an AI research and deployment company that conducts research and implements machine
@@ -5056,7 +5111,9 @@ companies:
   in_network: true
   is_api_provider: true
   slug: optum
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.optum.com/en/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: ORY
   url: https://www.ory.sh/
   description: open source security software
@@ -5237,6 +5294,7 @@ companies:
   is_api_provider: false
   slug: peace-software
   matched_by: name-slug
+  x-url-candidate: https://peace.com
 - name: Pecan AI
   url: https://www.pecan.ai/
   description: Predictive analytics for everyone
@@ -5309,7 +5367,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: photobox
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.photobox.co.uk/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: PicsArt (Socialin)
   url: http://picsart.com/
   description: PicsArt is the largest mobile community of creatives and creative images.
@@ -5328,7 +5388,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: pictorlabsai
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.pictorlabs.ai
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Pipedrive
   url: https://www.pipedrive.com/
   description: Pipedrive is the tool of choice for salespeople in scaling companies – the sales CRM pipeline
@@ -5467,14 +5529,18 @@ companies:
   in_network: true
   is_api_provider: false
   slug: poms
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.poms.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Portside
   status: unknown
   source: https://www.insightpartners.com/portfolio/portside/
   in_network: true
   is_api_provider: false
   slug: portside
-  matched_by: name-slug
+  matched_by: domain
+  url: https://portside.co
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Postman
   url: https://www.postman.com/
   description: Postman is the leading collaboration platform for API development, used by more than 11
@@ -5521,8 +5587,8 @@ companies:
   source: https://www.insightpartners.com/portfolio/prelude/
   in_network: false
   is_api_provider: false
-  x-name-collision: prelude
   suggested_slug: preludesecurity-com
+  x-name-collision: prelude
 - name: Prevalent
   url: http://www.prevalent.net/
   description: Prevalent is the leader in third-party risk management and cyber threat intelligence.
@@ -5542,6 +5608,7 @@ companies:
   is_api_provider: false
   slug: primavera-systems
   matched_by: name-slug
+  x-url-candidate: https://primavera.bio
 - name: Prisma Photonics
   url: https://www.prismaphotonics.com/
   description: Keeping the world&#039;s critical infrastructure up and running
@@ -5559,8 +5626,8 @@ companies:
   source: https://www.insightpartners.com/portfolio/privado/
   in_network: false
   is_api_provider: false
-  x-name-collision: privado
   suggested_slug: privadovpn-com
+  x-name-collision: privado
 - name: Privalia
   url: http://www.privalia.com/
   description: Privalia is a private sales club that organises the sale of leading name products at exceptional
@@ -5579,7 +5646,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: procuri
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.procuri.ai/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Profluent
   url: https://www.profluent.bio/
   description: Born out of pioneering research in artificial intelligence and biology, Profluent Bio develops
@@ -5618,8 +5687,8 @@ companies:
   source: https://www.insightpartners.com/portfolio/promethium/
   in_network: false
   is_api_provider: false
-  x-name-collision: promethium
   suggested_slug: pm61data-com
+  x-name-collision: promethium
 - name: Promptfoo
   url: https://www.promptfoo.dev/
   description: Promptfoo is a widely adopted open source AI security testing platform, enabling enterprises
@@ -5648,7 +5717,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: proscia
-  matched_by: name-slug
+  matched_by: domain
+  url: https://proscia.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Prose
   url: https://prose.com/
   description: Prose is a custom hair care brand that offers consumers freshly-made products to meet their
@@ -5668,7 +5739,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: punch-software
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.punchsoftware.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: QASymphony
   url: https://www.qasymphony.com/
   description: QASymphony is a leading agile software company that provides enterprise test case management
@@ -5758,8 +5831,8 @@ companies:
   source: https://www.insightpartners.com/portfolio/quince/
   in_network: false
   is_api_provider: false
-  x-name-collision: quince
   suggested_slug: onequince-com
+  x-name-collision: quince
 - name: QuotaPath
   url: https://www.quotapath.com/
   description: QuotaPath empowers and aligns sales organizations.
@@ -5898,8 +5971,10 @@ companies:
   source: https://www.insightpartners.com/portfolio/resolve-systems/
   in_network: true
   is_api_provider: false
-  slug: resolve-systems
-  matched_by: name-slug
+  slug: espressive
+  matched_by: domain
+  url: https://resolve.io
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Restream
   url: https://restream.io/
   description: Restream is the leading multiplatform live streaming service.
@@ -5945,8 +6020,8 @@ companies:
   source: https://www.insightpartners.com/portfolio/rithum/
   in_network: false
   is_api_provider: false
-  x-name-collision: rithum
   suggested_slug: commercehub-com
+  x-name-collision: rithum
 - name: Ritual
   url: https://ritual.co/
   description: Ritual connects hungry customers to the best restaurants and coffee shops in their neighborhood.
@@ -6191,6 +6266,7 @@ companies:
   is_api_provider: false
   slug: seebeyond
   matched_by: name-slug
+  x-url-candidate: https://seebeyond.ai
 - name: SeeCommerce
   description: SeeCommerce, based in Palo Alto, CA, provides supply chain performance measurement solutions.
   status: unknown
@@ -6271,8 +6347,8 @@ companies:
   source: https://www.insightpartners.com/portfolio/sfx/
   in_network: false
   is_api_provider: false
-  x-name-collision: sfx
   suggested_slug: sfxii-com
+  x-name-collision: sfx
 - name: Shift5
   url: https://www.shift5.io/
   description: Shift5 is the OT cybersecurity company that protects the world’s transportation infrastructure
@@ -6359,8 +6435,8 @@ companies:
   source: https://www.insightpartners.com/portfolio/sift/
   in_network: false
   is_api_provider: false
-  x-name-collision: sift
   suggested_slug: siftscience-com
+  x-name-collision: sift
 - name: Silk
   url: https://www.silk.security/
   sector: cybersecurity
@@ -6479,8 +6555,8 @@ companies:
   source: https://www.insightpartners.com/portfolio/slice/
   in_network: false
   is_api_provider: false
-  x-name-collision: slice
   suggested_slug: sliceglobal-com
+  x-name-collision: slice
 - name: Slice Pay
   url: https://www.sliceit.com/
   description: redesigning financial experiences for Gen Z and Millennials
@@ -6586,7 +6662,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: solovis
-  matched_by: name-slug
+  matched_by: domain
+  url: https://solovis.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: SonarSource
   url: https://www.sonarsource.com/
   description: SonarSource provides world-class solutions for continuous code quality.
@@ -6698,7 +6776,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: sprypoint
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.sprypoint.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: StackBlitz
   url: https://www.stackblitz.com/
   sector: devops
@@ -6777,7 +6857,9 @@ companies:
   in_network: true
   is_api_provider: true
   slug: sweep
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.sweep.io/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Swimm
   url: https://swimm.io/
   description: Swimm helps engineering teams better understand their code, through knowledge building
@@ -6817,6 +6899,7 @@ companies:
   is_api_provider: false
   slug: synquest
   matched_by: name-slug
+  x-url-candidate: https://synquest.io
 - name: sysdyne
   url: https://sysdynetechnologies.com/
   description: Sysdyne Technologies simplifies ready-mix concrete operations with its cloud-native, interoperable
@@ -7216,6 +7299,7 @@ companies:
   in_network: false
   is_api_provider: false
   suggested_slug: twitter
+  x-url-candidate: https://x.com/
 - name: TytoCare
   url: https://www.tytocare.com/
   description: TytoCare is transforming primary care by putting health in the hands of consumers.
@@ -7312,7 +7396,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: usadata-inc
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.usadata.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: UserTesting
   url: https://www.usertesting.com/
   description: UserTesting enables every organization to deliver the best customer experience powered
@@ -7382,7 +7468,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: vectory
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.vectorytx.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Veeam Software
   url: http://www.veeam.com/
   description: Veeam® is Modern Data Protection™ - providing powerful, easy-to-use and affordable solutions
@@ -7487,8 +7575,8 @@ companies:
   source: https://www.insightpartners.com/portfolio/virgin-pulse/
   in_network: false
   is_api_provider: false
-  x-name-collision: virgin-pulse
   suggested_slug: virginpulse-com
+  x-name-collision: virgin-pulse
 - name: Visual Layer
   url: https://visual-layer.com/
   status: unknown
@@ -7505,7 +7593,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: visuallogix
-  matched_by: name-slug
+  matched_by: domain
+  url: https://visuallogix.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: viz.ai
   url: https://www.viz.ai/
   description: Viz.ai is the leader in AI-driven modern care coordination.
@@ -7534,6 +7624,7 @@ companies:
   is_api_provider: true
   slug: voicegenie
   matched_by: name-slug
+  x-url-candidate: https://www.voicegenie.co/
 - name: Von
   url: https://www.gorattle.com/
   description: Rattle is the only revenue orchestration platform that services all customer-facing departments
@@ -7612,7 +7703,9 @@ companies:
   in_network: true
   is_api_provider: true
   slug: wealth-x
-  matched_by: name-slug
+  matched_by: domain
+  url: https://wealthx.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Weavix
   description: Wichita-based technology firm specializing in frontline communication and efficiency solutions
   status: unknown
@@ -7621,6 +7714,7 @@ companies:
   is_api_provider: true
   slug: weavix
   matched_by: name-slug
+  x-url-candidate: https://weavix.com
 - name: Webhelp
   description: Webhelp is a leading developer of technology and service offerings that enable it to provide
     online communication solutions to businesses and their customers.
@@ -7658,7 +7752,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: wenrix
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.wenrix.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Whalerock
   url: http://www.whalerockindustries.com/
   description: Whalerock Industries is an independent media/technology company which creates, produces
@@ -7727,17 +7823,6 @@ companies:
   in_network: false
   is_api_provider: false
   suggested_slug: wixcom
-- name: Wiz
-  url: https://wiz.io/
-  description: Wiz is a fast-growing cloud security innovator that helps companies secure their cloud
-    infrastructure at scale.
-  sector: cybersecurity
-  status: unknown
-  source: https://www.insightpartners.com/portfolio/wiz/
-  slug: wiz
-  in_network: true
-  is_api_provider: false
-  matched_by: domain
 - name: Wonderful
   url: https://www.wonderful.ai/
   description: Wonderful provides an integrated agent platform allowing enterprises to build, manage and
@@ -7835,7 +7920,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: xelix
-  matched_by: name-slug
+  matched_by: domain
+  url: https://xelix.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: XELUS
   description: Xelus, Inc. is the leading provider of collaborative Enterprise Service Management (ESM)
     solutions for Global 1000 organizations.
@@ -7895,8 +7982,8 @@ companies:
   source: https://www.insightpartners.com/portfolio/yoom-fka-tetavi/
   in_network: false
   is_api_provider: false
-  x-name-collision: yoom-fka-tetavi
   suggested_slug: tetavi-com
+  x-name-collision: yoom-fka-tetavi
 - name: Yubi (fka CredAvenue)
   url: https://www.go-yubi.com/
   description: Powering the global debt ecosystem through technology
