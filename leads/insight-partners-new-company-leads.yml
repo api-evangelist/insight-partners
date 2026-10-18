@@ -170,13 +170,6 @@ leads:
   source_vc: insight-partners
   source: https://www.insightpartners.com/portfolio/mv-sistemas/
   stub_created: false
-- name: Netsmart Technologies
-  url: ''
-  suggested_slug: netsmart-technologies
-  sector: healthcare
-  source_vc: insight-partners
-  source: https://www.insightpartners.com/portfolio/netsmart-technologies/
-  stub_created: false
 - name: Nexus One
   url: https://www.nexuscognitive.com/
   suggested_slug: nexuscognitive-com
@@ -255,7 +248,7 @@ leads:
   source: https://www.insightpartners.com/portfolio/slice/
   stub_created: false
 - name: Twitter
-  url: ''
+  url: https://x.com/
   suggested_slug: twitter
   sector: consumer
   source_vc: insight-partners

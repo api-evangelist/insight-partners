@@ -3,9 +3,9 @@ method: searched
 source: https://www.insightpartners.com/portfolio/
 summary:
   portfolio_total: 797
-  in_network: 758
+  in_network: 759
   api_providers: 229
-  missing: 39
+  missing: 38
   stubs_created: 0
 companies:
 - name: 1047 Games
@@ -2442,7 +2442,7 @@ companies:
   in_network: false
   is_api_provider: false
   suggested_slug: enigma
-  x-url-candidate: https://www.enigma.com/
+  x-url-rejected: https://www.enigma.com/
 - name: Ensighten
   url: http://www.ensighten.com/
   description: Ensighten, the leader in enterprise data and tag management, boosts marketing agility and
@@ -4747,10 +4747,12 @@ companies:
   sector: healthcare
   status: unknown
   source: https://www.insightpartners.com/portfolio/netsmart-technologies/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: netsmart-technologies
-  x-url-candidate: https://www.ntst.com/ai
+  url: https://www.ntst.com/
+  x-url-source: web check 2026-10-18 (confirmed)
+  slug: netsmart
+  matched_by: domain
 - name: New Relic
   description: New Relic is on a mission to create a better web and mobile experience for everyone by
     making apps faster and more reliable.
@@ -7299,7 +7301,8 @@ companies:
   in_network: false
   is_api_provider: false
   suggested_slug: twitter
-  x-url-candidate: https://x.com/
+  url: https://x.com/
+  x-url-source: web check 2026-10-18 (confirmed)
 - name: TytoCare
   url: https://www.tytocare.com/
   description: TytoCare is transforming primary care by putting health in the hands of consumers.
