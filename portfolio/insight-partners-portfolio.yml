@@ -2,10 +2,10 @@ generated: '2026-07-17'
 method: searched
 source: https://www.insightpartners.com/portfolio/
 summary:
-  portfolio_total: 847
-  in_network: 847
-  api_providers: 214
-  missing: 0
+  portfolio_total: 798
+  in_network: 758
+  api_providers: 228
+  missing: 40
   stubs_created: 0
 companies:
 - name: 1047 Games
@@ -16,8 +16,8 @@ companies:
   status: unknown
   source: https://www.insightpartners.com/portfolio/1047-games/
   in_network: true
-  is_api_provider: false
-  slug: 1047-games
+  is_api_provider: true
+  slug: splitgate
   matched_by: domain
 - name: 1stdibs
   url: https://www.1stdibs.com/
@@ -37,9 +37,9 @@ companies:
   status: unknown
   source: https://www.insightpartners.com/portfolio/2x/
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   slug: 2x
-  matched_by: domain
+  matched_by: name-slug
 - name: 3P Learning Pty
   url: http://mathletics.com/
   description: 3P Learning is a hosted educational software vendor providing interactive supplemental
@@ -47,10 +47,10 @@ companies:
   sector: education
   status: unknown
   source: https://www.insightpartners.com/portfolio/3p-learning-pty/
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: 3p-learning-pty
-  matched_by: name-slug
+  x-name-collision: 3p-learning-pty
+  suggested_slug: mathletics-com
 - name: 4M Analytics
   description: 4M ANALYTICS is a subsurface-infrastructure geo-data company
   status: unknown
@@ -68,16 +68,6 @@ companies:
   in_network: true
   is_api_provider: false
   slug: 5nine-software
-  matched_by: domain
-- name: 6 Waves
-  url: http://www.6waves.com/
-  description: 6waves is a leading international publisher of gaming applications on the Facebook platform.
-  sector: consumer
-  status: unknown
-  source: https://www.insightpartners.com/portfolio/6-waves/
-  in_network: true
-  is_api_provider: false
-  slug: 6-waves
   matched_by: domain
 - name: 6 Waves
   url: http://www.6waves.com/
@@ -160,9 +150,9 @@ companies:
   sector: cybersecurity
   status: unknown
   source: https://www.insightpartners.com/portfolio/abnormal-ai/
-  slug: abnormal-security
+  slug: abnormal
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   matched_by: domain
 - name: Academic Partnerships
   url: http://www.academicpartnerships.com/
@@ -171,10 +161,10 @@ companies:
   sector: education
   status: unknown
   source: https://www.insightpartners.com/portfolio/academic-partnerships/
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: academic-partnerships
-  matched_by: name-slug
+  x-name-collision: academic-partnerships
+  suggested_slug: academicpartnerships-com
 - name: Achieve3000
   url: http://www.achieve3000.com/
   description: Achieve3000 delivers differentiated literacy solutions proven to increase reading comprehension,
@@ -213,10 +203,10 @@ companies:
   sector: government
   status: unknown
   source: https://www.insightpartners.com/portfolio/acuant/
-  slug: acuant
-  in_network: true
-  is_api_provider: true
-  matched_by: name-slug
+  in_network: false
+  is_api_provider: false
+  x-name-collision: acuant
+  suggested_slug: acuantcorp-com
 - name: Adaptive Shield
   url: https://www.adaptive-shield.com/
   description: Adaptive Shield, the leading SaaS Security Posture Management (SSPM) company, enables security
@@ -331,7 +321,7 @@ companies:
   source: https://www.insightpartners.com/portfolio/alibaba-com/
   slug: alibaba
   in_network: true
-  is_api_provider: true
+  is_api_provider: false
   matched_by: domain
 - name: Allscripts Healthcare Solutions
   description: RxCentric is an e-health business-to-business company linking physicians&#039; drug information
@@ -339,10 +329,9 @@ companies:
   sector: healthcare
   status: unknown
   source: https://www.insightpartners.com/portfolio/allscripts-healthcare-solutions/
-  slug: veradigm
-  in_network: true
+  in_network: false
   is_api_provider: false
-  matched_by: name-slug
+  suggested_slug: allscripts-healthcare-solutions
 - name: Alma
   url: https://helloalma.com/
   description: Launched in 2018, Alma is on a mission to simplify access to high quality, affordable mental
@@ -350,10 +339,10 @@ companies:
   sector: consumer
   status: unknown
   source: https://www.insightpartners.com/portfolio/alma/
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: alma
-  matched_by: name-slug
+  x-name-collision: alma
+  suggested_slug: helloalma-com
 - name: Alteryx
   description: Alteryx is revolutionizing business through data science and analytics, empowering every
     data producer, regardless of technical acumen, to transform their data into actionable insights.
@@ -379,7 +368,7 @@ companies:
   status: unknown
   source: https://www.insightpartners.com/portfolio/altruist/
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   slug: altruist
   matched_by: domain
 - name: Ambassador Labs
@@ -403,25 +392,15 @@ companies:
   is_api_provider: true
   slug: amcs-group
   matched_by: domain
-- name: AMCS Group
-  url: http://www.amcsgroup.com/
-  description: AMCS is the global leader in ERP software and vehicle technology for the waste, recycling
-    and resource industry.
-  status: unknown
-  source: https://www.insightpartners.com/portfolio/amcs-group/
-  in_network: true
-  is_api_provider: true
-  slug: amcs-group
-  matched_by: domain
 - name: Anaconda (fka Continuum Analytics)
   url: https://www.anaconda.com/
   description: Anaconda is built to advance AI with open source at scale, giving builders and organizations
     the confidence to increase productivity, and save time, spend and risk associated with open source.
   status: unknown
   source: https://www.insightpartners.com/portfolio/anaconda-fka-continuum-analytics/
-  slug: conda-forge
+  slug: anaconda
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   matched_by: domain
 - name: Anaqua
   url: http://www.anaqua.com/
@@ -524,18 +503,6 @@ companies:
   is_api_provider: false
   slug: apprentice
   matched_by: domain
-- name: apprentice.io
-  url: https://www.apprentice.io/
-  description: Apprentice.io is an intelligent software company that builds solutions for global life
-    science teams to increase speed to market, improve product yield and decrease deviations so that critical
-    drugs get to market faster, with higher reliability.
-  sector: healthcare
-  status: unknown
-  source: https://www.insightpartners.com/portfolio/apprentice-io/
-  in_network: true
-  is_api_provider: false
-  slug: apprentice
-  matched_by: domain
 - name: Appriss Retail
   url: https://apprissretail.com/
   description: Appriss provides proprietary data and analytics solutions to address risk, fraud, security,
@@ -595,18 +562,8 @@ companies:
   status: unknown
   source: https://www.insightpartners.com/portfolio/aquant-io/
   in_network: true
-  is_api_provider: false
-  slug: aquant-io
-  matched_by: domain
-- name: Aquant.io
-  url: https://www.aquant.ai/
-  description: Aquant&#039;s service intelligence platform transforms how organizations deliver service
-    through artificial intelligence.
-  status: unknown
-  source: https://www.insightpartners.com/portfolio/aquant-io/
-  in_network: true
-  is_api_provider: false
-  slug: aquant-io
+  is_api_provider: true
+  slug: aquant
   matched_by: domain
 - name: Argus Software
   url: http://www.argussoftware.com/
@@ -637,8 +594,8 @@ companies:
   status: unknown
   source: https://www.insightpartners.com/portfolio/armory-io/
   in_network: true
-  is_api_provider: false
-  slug: armoryio
+  is_api_provider: true
+  slug: armory
   matched_by: domain
 - name: ArrePath
   url: https://arrepath.com/
@@ -738,7 +695,7 @@ companies:
   status: unknown
   source: https://www.insightpartners.com/portfolio/authorize-net/
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   slug: authorizenet
   matched_by: name-slug
 - name: Autobahn Therapeutics
@@ -758,7 +715,7 @@ companies:
   sector: consumer
   status: unknown
   source: https://www.insightpartners.com/portfolio/automattic/
-  slug: gravatar
+  slug: automattic
   in_network: true
   is_api_provider: true
   matched_by: domain
@@ -790,14 +747,6 @@ companies:
   in_network: true
   is_api_provider: false
   slug: averna-therapeutics
-  matched_by: name-slug
-- name: Aviatrix
-  description: Networking
-  status: unknown
-  source: https://www.insightpartners.com/portfolio/aviatrix/
-  in_network: true
-  is_api_provider: false
-  slug: aviatrix
   matched_by: name-slug
 - name: Aviatrix
   description: Networking
@@ -844,7 +793,7 @@ companies:
   status: unknown
   source: https://www.insightpartners.com/portfolio/azuqua/
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   slug: azuqua
   matched_by: domain
 - name: B2B-Center
@@ -1056,7 +1005,7 @@ companies:
   status: unknown
   source: https://www.insightpartners.com/portfolio/blueocean/
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   slug: blueocean
   matched_by: domain
 - name: Bluewhite (fka Blue White Robotics)
@@ -1064,10 +1013,9 @@ companies:
   description: Robot as a Service
   status: unknown
   source: https://www.insightpartners.com/portfolio/bluewhite/
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: bluewhite-fka-blue-white-robotics
-  matched_by: name-slug
+  suggested_slug: bluewhite-fka-blue-white-robotics
 - name: BMC Software
   url: http://www.bmc.com/
   description: For more than 30 years, BMC has helped thousands of companies around the world master IT
@@ -1085,7 +1033,7 @@ companies:
   status: unknown
   source: https://www.insightpartners.com/portfolio/everyaction/
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   slug: bonterra-fka-everyaction
   matched_by: domain
 - name: Branding Brand
@@ -1301,16 +1249,6 @@ companies:
   is_api_provider: false
   slug: capella-university
   matched_by: name-slug
-- name: Capella University
-  description: Capella Education Company is the for-profit parent company and operates through its subsidiary
-    Capella University, an online accredited academic institution.
-  sector: education
-  status: unknown
-  source: https://www.insightpartners.com/portfolio/capella-university/
-  in_network: true
-  is_api_provider: false
-  slug: capella-university
-  matched_by: name-slug
 - name: CareMerge
   url: http://www.caremerge.com/web/
   description: Caremerge is a revolutionary, cloud-based care coordination network that enhances communication
@@ -1486,8 +1424,8 @@ companies:
   status: unknown
   source: https://www.insightpartners.com/portfolio/class-for-zoom-fka-classedu/
   in_network: true
-  is_api_provider: false
-  slug: class
+  is_api_provider: true
+  slug: class-fka-classedu
   matched_by: domain
 - name: Cleanwise
   description: Cleanwise is the industry leading Jan/San Procurement Management Company for multi-location
@@ -1564,7 +1502,7 @@ companies:
   source: https://www.insightpartners.com/portfolio/coast-fka-vayu/
   in_network: true
   is_api_provider: false
-  slug: coast-fka-vayu
+  slug: coast
   matched_by: domain
 - name: Coda
   url: https://www.coda.co/
@@ -1573,10 +1511,10 @@ companies:
   sector: gaming
   status: unknown
   source: https://www.insightpartners.com/portfolio/coda/
-  slug: coda
+  slug: coda-payments
   in_network: true
-  is_api_provider: true
-  matched_by: name-slug
+  is_api_provider: false
+  matched_by: domain
 - name: Cognigy
   url: https://www.cognigy.com/
   description: Cognigy is a global leader in Conversational AI to support customer service automation.
@@ -1604,10 +1542,10 @@ companies:
   sector: cybersecurity
   status: unknown
   source: https://www.insightpartners.com/portfolio/command-zero/
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: command-zero
-  matched_by: name-slug
+  x-name-collision: command-zero
+  suggested_slug: cmdzero-io
 - name: commandbar
   url: https://www.commandbar.com/
   description: software levels up user experience in many leading SaaS apps
@@ -1637,15 +1575,6 @@ companies:
   slug: commercetools
   in_network: true
   is_api_provider: true
-  matched_by: domain
-- name: CompanyCam
-  url: https://companycam.com/
-  description: field service management app for contractors
-  status: unknown
-  source: https://www.insightpartners.com/portfolio/companycam/
-  in_network: true
-  is_api_provider: true
-  slug: companycam
   matched_by: domain
 - name: CompanyCam
   url: https://companycam.com/
@@ -1691,10 +1620,10 @@ companies:
     and reporting applications for Salesforce.
   status: unknown
   source: https://www.insightpartners.com/portfolio/conga/
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: conga
-  matched_by: name-slug
+  x-name-collision: conga
+  suggested_slug: getconga-com
 - name: ConnectCapital
   description: ConnectCapital was established in 2000 to make private equity investments in early and
     expansion stage companies that provide enterprise application and infrastructure software and solutions.
@@ -1824,9 +1753,9 @@ companies:
     than 10 million agents monthly and 150 customers.
   status: unknown
   source: https://www.insightpartners.com/portfolio/crewai/
-  slug: crewai
+  slug: crewai-cloud
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   matched_by: domain
 - name: Customer Analytics
   description: Customer Analytics provides technology-enabled marketing software and services to organizations
@@ -1916,10 +1845,10 @@ companies:
   sector: payments
   status: unknown
   source: https://www.insightpartners.com/portfolio/dash/
-  slug: dash
-  in_network: true
+  in_network: false
   is_api_provider: false
-  matched_by: name-slug
+  x-name-collision: dash
+  suggested_slug: dash-app-com
 - name: Databricks
   url: https://www.databricks.com/
   description: Databricks is an AI cloud data platform that interacts with corporate information stored
@@ -2008,16 +1937,6 @@ companies:
   is_api_provider: false
   slug: deci-ai
   matched_by: domain
-- name: Deci AI
-  url: https://deci.ai/
-  description: Deci enables deep learning to live up to its true potential by using AI to build better
-    AI.
-  status: unknown
-  source: https://www.insightpartners.com/portfolio/deci-ai/
-  in_network: true
-  is_api_provider: false
-  slug: deci-ai
-  matched_by: domain
 - name: deepdub
   url: https://deepdub.ai/
   description: Deepdub aims to bridge the language barrier and cultural gap of entertainment experiences
@@ -2067,7 +1986,7 @@ companies:
   source: https://www.insightpartners.com/portfolio/delve/
   slug: karumi
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   matched_by: domain
 - name: DEM Bio
   url: https://dembiopharma.com/
@@ -2147,10 +2066,10 @@ companies:
     and small businesses.
   status: unknown
   source: https://www.insightpartners.com/portfolio/dext/
-  in_network: true
-  is_api_provider: true
-  slug: dext
-  matched_by: name-slug
+  in_network: false
+  is_api_provider: false
+  x-name-collision: dext
+  suggested_slug: receipt-bank-com
 - name: Digital Room
   url: http://www.digitalroominc.com/
   description: Digital Room Inc. owns and operates multiple online printing brands that produce a wide
@@ -2207,18 +2126,7 @@ companies:
   status: unknown
   source: https://www.insightpartners.com/portfolio/divvy/
   in_network: true
-  is_api_provider: false
-  slug: divvy
-  matched_by: domain
-- name: Divvy
-  url: https://getdivvy.com/
-  description: Divvy is a secure financial platform for businesses to manage payments and subscriptions,
-    build strategic budgets, and eliminate expense reports.
-  sector: payments
-  status: unknown
-  source: https://www.insightpartners.com/portfolio/divvy/
-  in_network: true
-  is_api_provider: false
+  is_api_provider: true
   slug: divvy
   matched_by: domain
 - name: DivX, Inc. (NasdaqGS:DIVX)
@@ -2290,16 +2198,6 @@ companies:
   in_network: true
   is_api_provider: false
   matched_by: domain
-- name: Dotmatics (FKA Insightful Science GraphPad)
-  url: https://www.dotmatics.com/
-  description: Dotmatics is a leader in R&amp;D scientific software connecting science, data, and decision-making.
-  sector: healthcare
-  status: unknown
-  source: https://www.insightpartners.com/portfolio/dotmatics-fka-insightful-science-graphpad/
-  slug: dotmatics
-  in_network: true
-  is_api_provider: false
-  matched_by: domain
 - name: Downstream Energy
   description: DownstreamEnergy provides a business-to-business electronic commerce solutions for the
     refined petrochemical industry (gasoline, distillate, propane, jet fuel, etc.).
@@ -2309,16 +2207,6 @@ companies:
   is_api_provider: false
   slug: downstream-energy
   matched_by: name-slug
-- name: Doxel
-  url: https://www.doxel.ai/
-  description: Doxel leverages the first computer-vision-powered predictive analytics solution for the
-    construction industry.
-  status: unknown
-  source: https://www.insightpartners.com/portfolio/doxel/
-  slug: doxel
-  in_network: true
-  is_api_provider: false
-  matched_by: domain
 - name: Doxel
   url: https://www.doxel.ai/
   description: Doxel leverages the first computer-vision-powered predictive analytics solution for the
@@ -2358,15 +2246,6 @@ companies:
   is_api_provider: false
   slug: duco
   matched_by: domain
-- name: Duco
-  url: https://du.co/
-  description: Duco provides self-service data engineering in the cloud.
-  status: unknown
-  source: https://www.insightpartners.com/portfolio/duco/
-  in_network: true
-  is_api_provider: false
-  slug: duco
-  matched_by: domain
 - name: DWL
   description: DWL is the leader in Enterprise Business Services software, an emerging class of services-oriented
     applications.
@@ -2383,7 +2262,7 @@ companies:
     a single prompt.
   status: unknown
   source: https://www.insightpartners.com/portfolio/e2b/
-  slug: e2b
+  slug: e2b-dev
   in_network: true
   is_api_provider: true
   matched_by: domain
@@ -2411,20 +2290,10 @@ companies:
     teams to move faster than ever before.
   status: unknown
   source: https://www.insightpartners.com/portfolio/echoai/
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: echo-ai-fka-pathlight
-  matched_by: domain
-- name: Echo AI (fka Pathlight)
-  url: https://www.pathlight.com/
-  description: Pathlight is a Realtime Performance Management (RPM) platform that allows large, customer-facing
-    teams to move faster than ever before.
-  status: unknown
-  source: https://www.insightpartners.com/portfolio/echoai/
-  in_network: true
-  is_api_provider: false
-  slug: echo-ai-fka-pathlight
-  matched_by: domain
+  x-name-collision: echo-ai-fka-pathlight
+  suggested_slug: pathlight-com
 - name: Eden Health
   url: https://www.edenhealth.com/
   description: Eden Health is a nationally recognized medical practice that makes it easier for HR teams
@@ -2495,7 +2364,7 @@ companies:
   status: unknown
   source: https://www.insightpartners.com/portfolio/ellkay/
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   slug: ellkay
   matched_by: domain
 - name: elo7
@@ -2522,27 +2391,26 @@ companies:
   description: Enable turns rebates into a growth engine
   status: unknown
   source: https://www.insightpartners.com/portfolio/enable/
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: enable
-  matched_by: name-slug
+  x-name-collision: enable
+  suggested_slug: enable-com
 - name: ENGIE Insight Services
   url: http://www.ecova.com/
   description: Ecova is a total energy and sustainability management company.
   status: unknown
   source: https://www.insightpartners.com/portfolio/engie-insight-services/
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: engie-insight-services
-  matched_by: name-slug
+  x-name-collision: engie-insight-services
+  suggested_slug: ecova-com
 - name: Enigma
   description: Enigma provides content management &amp; eCommerce systems for complex manufacturers.
   status: unknown
   source: https://www.insightpartners.com/portfolio/enigma/
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: enigma
-  matched_by: name-slug
+  suggested_slug: enigma
 - name: Ensighten
   url: http://www.ensighten.com/
   description: Ensighten, the leader in enterprise data and tag management, boosts marketing agility and
@@ -2551,7 +2419,7 @@ companies:
   status: unknown
   source: https://www.insightpartners.com/portfolio/ensighten/
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   slug: ensighten
   matched_by: domain
 - name: Enverus
@@ -2673,10 +2541,10 @@ companies:
     pricing compliance.
   status: unknown
   source: https://www.insightpartners.com/portfolio/exactera/
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: exactera
-  matched_by: name-slug
+  x-name-collision: exactera
+  suggested_slug: crossborder-ai
 - name: Excite Japan Co., Ltd. (JASDAQ:3754)
   description: The McKinley Group was acquired by Excite in 1996.
   status: unknown
@@ -2693,7 +2561,7 @@ companies:
   status: unknown
   source: https://www.insightpartners.com/portfolio/exclaimer/
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   slug: exclaimer
   matched_by: domain
 - name: EXIGER
@@ -2745,17 +2613,6 @@ companies:
   is_api_provider: false
   slug: ezcater
   matched_by: domain
-- name: ezCater
-  url: https://www.ezcater.com/
-  description: Founded in 2007, ezCater, Inc. is the only nationwide online food ordering service for
-    businesses.
-  sector: marketplace
-  status: unknown
-  source: https://www.insightpartners.com/portfolio/ezcater/
-  in_network: true
-  is_api_provider: false
-  slug: ezcater
-  matched_by: domain
 - name: Fact Base Inc.
   url: https://fact-base.com/
   description: FactBase specializes in DX&#039;s promotion of small and medium-sized enterprises that
@@ -2782,19 +2639,10 @@ companies:
   description: We develop paradigm-shifting ideas for premium brands ready to seize the moment.
   status: unknown
   source: https://www.insightpartners.com/portfolio/famous/
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: famous
-  matched_by: name-slug
-- name: Famous
-  url: https://famous.co/
-  description: We develop paradigm-shifting ideas for premium brands ready to seize the moment.
-  status: unknown
-  source: https://www.insightpartners.com/portfolio/famous/
-  in_network: true
-  is_api_provider: false
-  slug: famous
-  matched_by: name-slug
+  x-name-collision: famous
+  suggested_slug: famous-co
 - name: Fanatics
   url: http://fanaticsinc.com/
   description: Fanatics, the market leader for licensed sports merchandise, offers the largest assortment
@@ -2844,7 +2692,7 @@ companies:
   source: https://www.insightpartners.com/portfolio/fenergo/
   slug: fenergo
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   matched_by: domain
 - name: fermyon
   url: https://www.fermyon.com/
@@ -2991,7 +2839,7 @@ companies:
   status: unknown
   source: https://www.insightpartners.com/portfolio/flipp-wishabi/
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   slug: flipp-wishabi
   matched_by: domain
 - name: FloQast
@@ -3080,8 +2928,8 @@ companies:
   status: unknown
   source: https://www.insightpartners.com/portfolio/forta-fka-montera/
   in_network: true
-  is_api_provider: false
-  slug: forta-fka-montera
+  is_api_provider: true
+  slug: forta-health
   matched_by: domain
 - name: Fourth
   url: http://www.fourth.com/
@@ -3122,16 +2970,6 @@ companies:
   in_network: true
   is_api_provider: false
   slug: fridge-no-more
-  matched_by: domain
-- name: Frontegg
-  url: https://frontegg.com/
-  description: Frontegg provides user management capabilities for modern applications.
-  sector: cybersecurity
-  status: unknown
-  source: https://www.insightpartners.com/portfolio/frontegg/
-  slug: frontegg
-  in_network: true
-  is_api_provider: true
   matched_by: domain
 - name: Frontegg
   url: https://frontegg.com/
@@ -3230,10 +3068,10 @@ companies:
     today&#039;s financial institutions need to gain a sustained competitive edge.
   status: unknown
   source: https://www.insightpartners.com/portfolio/genesis-global/
-  slug: genesis
-  in_network: true
+  in_network: false
   is_api_provider: false
-  matched_by: name-slug
+  x-name-collision: genesis
+  suggested_slug: genesis-global
 - name: GetPaid
   description: The GETPAID Corporation is the global leader in delivering software and services to support
     Lean Working Capital Management.
@@ -3271,7 +3109,7 @@ companies:
   source: https://www.insightpartners.com/portfolio/glia-fka-salemove/
   in_network: true
   is_api_provider: false
-  slug: glia-fka-salemove
+  slug: glia
   matched_by: domain
 - name: GlobalCare Inc.
   sector: healthcare
@@ -3440,7 +3278,7 @@ companies:
   status: unknown
   source: https://www.insightpartners.com/portfolio/heron/
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   slug: heron
   matched_by: domain
 - name: Hinge Health
@@ -3463,15 +3301,6 @@ companies:
   is_api_provider: false
   slug: hitwise
   matched_by: domain
-- name: Hitwise
-  url: http://www.hitwise.com/
-  description: Hitwise is a leading online competitive intelligence service.
-  status: unknown
-  source: https://www.insightpartners.com/portfolio/hitwise/
-  in_network: true
-  is_api_provider: false
-  slug: hitwise
-  matched_by: domain
 - name: Hologix
   description: Hologix, Inc., based in Phoenix, AZ, provides Attricom, a business-to-business eCommerce
     order management solution for companies with complex attribute-based product lines.
@@ -3481,17 +3310,6 @@ companies:
   is_api_provider: false
   slug: hologix
   matched_by: name-slug
-- name: HomeToGo
-  url: https://www.hometogo.com/
-  description: HomeToGo is a marketplace with the world&#039;s largest selection of vacation rentals,
-    listing millions of offers from thousands of trusted partners.
-  sector: consumer
-  status: unknown
-  source: https://www.insightpartners.com/portfolio/hometogo/
-  in_network: true
-  is_api_provider: false
-  slug: hometogo
-  matched_by: domain
 - name: HomeToGo
   url: https://www.hometogo.com/
   description: HomeToGo is a marketplace with the world&#039;s largest selection of vacation rentals,
@@ -3600,10 +3418,10 @@ companies:
     of real estate network.
   status: unknown
   source: https://www.insightpartners.com/portfolio/iad/
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: iad
-  matched_by: name-slug
+  x-name-collision: iad
+  suggested_slug: iadinternational-com
 - name: Identiq
   url: https://www.identiq.com/
   description: Identiq is a peer-to-peer identity verification network that allows its members, including
@@ -3636,26 +3454,6 @@ companies:
   in_network: true
   is_api_provider: false
   slug: ikano-communications
-  matched_by: domain
-- name: IKANO Communications
-  url: http://www.ikano.com/
-  description: IKANO is a market-leading Full Service Provider (FSP) of Internet networking infrastructure,
-    wholesale dial access, and private-label Internet services.
-  status: unknown
-  source: https://www.insightpartners.com/portfolio/ikano-communications/
-  in_network: true
-  is_api_provider: false
-  slug: ikano-communications
-  matched_by: domain
-- name: Illuminate Education
-  url: https://www.illuminateed.com/
-  description: Illuminate Education is the leading provider of integrated K–12 technology systems.
-  sector: education
-  status: unknown
-  source: https://www.insightpartners.com/portfolio/illuminate-education/
-  in_network: true
-  is_api_provider: false
-  slug: illuminate-education
   matched_by: domain
 - name: Illuminate Education
   url: https://www.illuminateed.com/
@@ -3726,15 +3524,6 @@ companies:
   is_api_provider: false
   slug: in-fusio
   matched_by: name-slug
-- name: In-Fusio
-  description: IN-FUSIO is a leading international mobile entertainment company, publishing games and
-    applications for cell phones and delivering player&#039;s community management services.
-  status: unknown
-  source: https://www.insightpartners.com/portfolio/in-fusio/
-  in_network: true
-  is_api_provider: false
-  slug: in-fusio
-  matched_by: name-slug
 - name: Incident.io
   url: https://incident.io/
   description: incident.io helps engineering teams fix issues faster and reduce downtime. It brings together
@@ -3775,40 +3564,19 @@ companies:
     model.
   status: unknown
   source: https://www.insightpartners.com/portfolio/indriver/
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: indrive-fka-indriver
-  matched_by: name-slug
-- name: InDrive (fka inDriver)
-  url: https://indriver.com/en/city/
-  description: inDriver is the world&#039;s fastest-growing ride-hailing platform, with a real-time deals
-    model.
-  status: unknown
-  source: https://www.insightpartners.com/portfolio/indriver/
-  in_network: true
-  is_api_provider: false
-  slug: indrive-fka-indriver
-  matched_by: name-slug
+  suggested_slug: indrive-fka-indriver
 - name: Inhabit
   url: https://inhabitiq.com/
   description: Inhabit IQ is a unique collective of tech-forward companies serving the vacation and property
     management industries.
   status: unknown
   source: https://www.insightpartners.com/portfolio/inhabit/
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: inhabit
-  matched_by: name-slug
-- name: Inhabit
-  url: https://inhabitiq.com/
-  description: Inhabit IQ is a unique collective of tech-forward companies serving the vacation and property
-    management industries.
-  status: unknown
-  source: https://www.insightpartners.com/portfolio/inhabit/
-  in_network: true
-  is_api_provider: false
-  slug: inhabit
-  matched_by: name-slug
+  x-name-collision: inhabit
+  suggested_slug: inhabitiq-com
 - name: Inovalon
   url: https://www.inovalon.com/
   sector: healthcare
@@ -3930,10 +3698,9 @@ companies:
   sector: healthcare
   status: unknown
   source: https://www.insightpartners.com/portfolio/iterative-scopes/
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: iterative-health-fka-iterative-scopes
-  matched_by: name-slug
+  suggested_slug: iterative-health-fka-iterative-scopes
 - name: IVIX
   url: https://www.ivix.ai/
   description: IVIX&#039;s innovative platform helps tax authorities in the U.S., Europe and Asia identify
@@ -3979,7 +3746,7 @@ companies:
   status: unknown
   source: https://www.insightpartners.com/portfolio/jasper/
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   slug: jasper
   matched_by: domain
 - name: JD.com
@@ -3991,24 +3758,6 @@ companies:
   in_network: true
   is_api_provider: false
   matched_by: domain
-- name: JD.com
-  url: http://JD.com/
-  description: JD.com is one of China&#039;s leading eCommerce companies.
-  status: unknown
-  source: https://www.insightpartners.com/portfolio/jd-com/
-  slug: jd-business
-  in_network: true
-  is_api_provider: false
-  matched_by: domain
-- name: Jedox
-  description: Jedox simplifies planning, analysis, and reporting with one unified and cloud-based software
-    suite.
-  status: unknown
-  source: https://www.insightpartners.com/portfolio/jedox/
-  in_network: true
-  is_api_provider: false
-  slug: jedox
-  matched_by: name-slug
 - name: Jedox
   description: Jedox simplifies planning, analysis, and reporting with one unified and cloud-based software
     suite.
@@ -4123,7 +3872,7 @@ companies:
   description: Kaseya is a leading global provider of IT Service Management software services.
   status: unknown
   source: https://www.insightpartners.com/portfolio/kaseya/
-  slug: datto
+  slug: kaseya
   in_network: true
   is_api_provider: true
   matched_by: domain
@@ -4147,19 +3896,8 @@ companies:
   status: unknown
   source: https://www.insightpartners.com/portfolio/keeper-security/
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   slug: keeper-security
-  matched_by: domain
-- name: Keyfactor
-  url: https://www.keyfactor.com/
-  description: Keyfactor, formerly Certified Security Solutions (CSS), is a leading provider of secure
-    digital identity management solutions.
-  sector: cybersecurity
-  status: unknown
-  source: https://www.insightpartners.com/portfolio/keyfactor/
-  in_network: true
-  is_api_provider: false
-  slug: keyfactor
   matched_by: domain
 - name: Keyfactor
   url: https://www.keyfactor.com/
@@ -4192,17 +3930,6 @@ companies:
   is_api_provider: false
   slug: kinnser-software
   matched_by: domain
-- name: Kinnser Software
-  url: http://www.kinnser.com/
-  description: Kinnser Software, Inc. was founded in 2003 to create Web-based solutions that deliver clinical
-    and business results for the home health industry.
-  sector: healthcare
-  status: unknown
-  source: https://www.insightpartners.com/portfolio/kinnser-software/
-  in_network: true
-  is_api_provider: false
-  slug: kinnser-software
-  matched_by: domain
 - name: Kintsugi
   url: https://kintsugihello.com/
   description: Kintsugi is developing smarter mental healthcare infrastructure using voice biomarkers
@@ -4210,10 +3937,10 @@ companies:
   sector: healthcare
   status: unknown
   source: https://www.insightpartners.com/portfolio/kintsugi/
-  slug: kintsugi
-  in_network: true
-  is_api_provider: true
-  matched_by: name-slug
+  in_network: false
+  is_api_provider: false
+  x-name-collision: kintsugi
+  suggested_slug: kintsugihello-com
 - name: Kira Systems
   url: https://www.kirasystems.com/
   description: Kira Systems’ technology is the most used and trusted software for contract review and
@@ -4242,15 +3969,6 @@ companies:
   in_network: true
   is_api_provider: false
   slug: klir
-  matched_by: domain
-- name: Knak
-  url: https://knak.com/
-  description: Knak is the first codeless campaign creation platform built for enterprise marketing teams.
-  status: unknown
-  source: https://www.insightpartners.com/portfolio/knak/
-  in_network: true
-  is_api_provider: true
-  slug: knak
   matched_by: domain
 - name: Knak
   url: https://knak.com/
@@ -4309,14 +4027,6 @@ companies:
   is_api_provider: false
   slug: kwi
   matched_by: name-slug
-- name: KWI
-  description: KWI develops trading and risk management software products for the global energy industry.
-  status: unknown
-  source: https://www.insightpartners.com/portfolio/kwi/
-  in_network: true
-  is_api_provider: false
-  slug: kwi
-  matched_by: name-slug
 - name: Kyverna Therapeutics
   description: Taming Autoimmunity™
   sector: biotech-therapeutics
@@ -4346,17 +4056,6 @@ companies:
   is_api_provider: false
   slug: laminar
   matched_by: name-slug
-- name: Landing.ai
-  url: https://landing.ai/
-  description: Landing AI™ is pioneering the next era of AI in which companies with even limited data
-    sets can realize the business and operational value of AI and move AI projects from proof-of-concept
-    to full scale production.
-  status: unknown
-  source: https://www.insightpartners.com/portfolio/landing-ai/
-  in_network: true
-  is_api_provider: true
-  slug: landingai
-  matched_by: domain
 - name: Landing.ai
   url: https://landing.ai/
   description: Landing AI™ is pioneering the next era of AI in which companies with even limited data
@@ -4438,10 +4137,10 @@ companies:
   sector: healthcare
   status: unknown
   source: https://www.insightpartners.com/portfolio/trialjectory/
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: leal-health-fka-trialjectory
-  matched_by: name-slug
+  x-name-collision: leal-health-fka-trialjectory
+  suggested_slug: trialjectory-com
 - name: LeanIX
   url: https://www.leanix.net/en/
   description: LeanIX offers a Software-as-a-Service (SaaS) application for Enterprise Architecture (EA),
@@ -4534,7 +4233,7 @@ companies:
   source: https://www.insightpartners.com/portfolio/liblab/
   slug: liblab
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   matched_by: domain
 - name: Lightricks
   url: https://www.lightricks.com/
@@ -4577,7 +4276,7 @@ companies:
   source: https://www.insightpartners.com/portfolio/linx/
   in_network: true
   is_api_provider: false
-  slug: linx
+  slug: linx-security
   matched_by: domain
 - name: Litmus Automation
   url: https://litmus.io/
@@ -4598,18 +4297,6 @@ companies:
   in_network: true
   is_api_provider: false
   slug: liveaction
-  matched_by: domain
-- name: LivingSocial
-  url: http://www.livingsocial.com/
-  description: LivingSocial is the social commerce leader behind LivingSocial Deals, a group buying program
-    that invites people and their friends to save up to 90 percent each day at their favorite restaurants,
-    spas, and more.
-  sector: consumer
-  status: unknown
-  source: https://www.insightpartners.com/portfolio/livingsocial/
-  in_network: true
-  is_api_provider: false
-  slug: livingsocial
   matched_by: domain
 - name: LivingSocial
   url: http://www.livingsocial.com/
@@ -4697,16 +4384,6 @@ companies:
   in_network: true
   is_api_provider: false
   slug: made-for
-  matched_by: domain
-- name: Marketing Evolution
-  url: https://www.marketingevolution.com/
-  description: Marketing Evolution delivers better business results with an independent SaaS Platform
-    for measurement and optimization of the entire marketing mix.
-  status: unknown
-  source: https://www.insightpartners.com/portfolio/marketing-evolution/
-  in_network: true
-  is_api_provider: false
-  slug: marketing-evolution
   matched_by: domain
 - name: Marketing Evolution
   url: https://www.marketingevolution.com/
@@ -4882,9 +4559,9 @@ companies:
     an environment of transparency in business.
   status: unknown
   source: https://www.insightpartners.com/portfolio/monday-com/
-  slug: monday
+  slug: monday-com
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   matched_by: domain
 - name: Monolith AI
   url: https://www.monolithai.com/
@@ -4962,21 +4639,10 @@ companies:
   sector: healthcare
   status: unknown
   source: https://www.insightpartners.com/portfolio/mv-sistemas/
-  in_network: true
-  is_api_provider: true
-  slug: mv-sistemas
-  matched_by: name-slug
-- name: MYSALE GROUP PLC
-  url: https://www.mysalegroup.com/
-  description: MySale is a leading international online retailer with established online flash sales and
-    retail websites in Australia, New Zealand, South-East Asia and the United Kingdom.
-  sector: consumer
-  status: unknown
-  source: https://www.insightpartners.com/portfolio/mysale-group-plc/
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: mysale-group-plc
-  matched_by: domain
+  x-name-collision: mv-sistemas
+  suggested_slug: mvsistemas-com-br
 - name: MYSALE GROUP PLC
   url: https://www.mysalegroup.com/
   description: MySale is a leading international online retailer with established online flash sales and
@@ -5012,7 +4678,7 @@ companies:
   description: Wilmington, N.C.-based nCino is the worldwide leader in cloud banking.
   status: unknown
   source: https://www.insightpartners.com/portfolio/ncino/
-  slug: sandbox-banking
+  slug: ncino
   in_network: true
   is_api_provider: true
   matched_by: domain
@@ -5033,19 +4699,9 @@ companies:
   sector: healthcare
   status: unknown
   source: https://www.insightpartners.com/portfolio/netsmart-technologies/
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: netsmart-technologies
-  matched_by: name-slug
-- name: New Relic
-  description: New Relic is on a mission to create a better web and mobile experience for everyone by
-    making apps faster and more reliable.
-  status: unknown
-  source: https://www.insightpartners.com/portfolio/new-relic/
-  slug: new-relic
-  in_network: true
-  is_api_provider: true
-  matched_by: name-slug
+  suggested_slug: netsmart-technologies
 - name: New Relic
   description: New Relic is on a mission to create a better web and mobile experience for everyone by
     making apps faster and more reliable.
@@ -5091,10 +4747,10 @@ companies:
   description: exus Cognitive is a leading innovator in enterprise Data &amp; AI foundations.
   status: unknown
   source: https://www.insightpartners.com/portfolio/nexus-cognitive/
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: nexus-one
-  matched_by: name-slug
+  x-name-collision: nexus-one
+  suggested_slug: nexuscognitive-com
 - name: Nfinite
   url: https://www.nfinite.app/
   description: nfinite is a SaaS Visuals Merchandizing platform that helps retailers grow their business.
@@ -5129,7 +4785,7 @@ companies:
   source: https://www.insightpartners.com/portfolio/nmi/
   slug: nmi
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   matched_by: domain
 - name: NNG
   url: http://www.nng.com/
@@ -5233,17 +4889,6 @@ companies:
   is_api_provider: false
   slug: oao-rbc-information-systems-micex-rbci
   matched_by: name-slug
-- name: Octopus Deploy
-  url: https://octopus.com/
-  description: Founded in 2012, Octopus Deploy has enabled thousands of companies to automate software
-    deployments and complete their Continuous Delivery pipeline.
-  sector: devops
-  status: unknown
-  source: https://www.insightpartners.com/portfolio/octopus-deploy/
-  slug: octopus-deploy
-  in_network: true
-  is_api_provider: true
-  matched_by: domain
 - name: Octopus Deploy
   url: https://octopus.com/
   description: Founded in 2012, Octopus Deploy has enabled thousands of companies to automate software
@@ -5360,7 +5005,7 @@ companies:
   status: unknown
   source: https://www.insightpartners.com/portfolio/openweb/
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   slug: openweb
   matched_by: domain
 - name: Optain
@@ -5409,7 +5054,7 @@ companies:
   status: unknown
   source: https://www.insightpartners.com/portfolio/optum/
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   slug: optum
   matched_by: name-slug
 - name: ORY
@@ -5421,7 +5066,7 @@ companies:
   slug: ory
   in_network: true
   is_api_provider: true
-  matched_by: domain
+  matched_by: name-slug
 - name: OverDrive
   url: http://www.overdrive.com/
   description: OverDrive, Inc. is a full-service digital content distributor and technology provider.
@@ -5631,7 +5276,7 @@ companies:
   sector: cybersecurity
   status: unknown
   source: https://www.insightpartners.com/portfolio/persona/
-  slug: withpersona
+  slug: persona
   in_network: true
   is_api_provider: true
   matched_by: domain
@@ -5655,16 +5300,6 @@ companies:
   is_api_provider: false
   slug: phasev
   matched_by: domain
-- name: Photobox
-  description: PhotoBox is the European leader in the consumer print-on-demand market, with more than
-    24 million members.
-  sector: consumer
-  status: unknown
-  source: https://www.insightpartners.com/portfolio/photobox/
-  in_network: true
-  is_api_provider: false
-  slug: photobox
-  matched_by: name-slug
 - name: Photobox
   description: PhotoBox is the European leader in the consumer print-on-demand market, with more than
     24 million members.
@@ -5804,17 +5439,6 @@ companies:
   in_network: true
   is_api_provider: true
   matched_by: domain
-- name: Pluralsight
-  url: http://www.pluralsight.com/
-  description: Pluralsight is an enterprise technology skills platform that delivers a unified, end-to-end
-    learning experience for businesses across the globe.
-  sector: devops
-  status: unknown
-  source: https://www.insightpartners.com/portfolio/pluralsight/
-  slug: pluralsight
-  in_network: true
-  is_api_provider: true
-  matched_by: domain
 - name: Pollinate
   url: https://www.pollinate.co.uk/
   description: Founded in 2017, Pollinate is a global business headquartered in London.
@@ -5877,10 +5501,9 @@ companies:
   description: Precisely is the global leader in Big Iron to Big Data software.
   status: unknown
   source: https://www.insightpartners.com/portfolio/precisely/
-  slug: precisely
-  in_network: true
+  in_network: false
   is_api_provider: false
-  matched_by: name-slug
+  suggested_slug: precisely
 - name: PrecisionLender
   url: https://precisionlender.com/
   description: PrecisionLender is modernizing commercial banking.
@@ -5896,10 +5519,10 @@ companies:
   sector: cybersecurity
   status: unknown
   source: https://www.insightpartners.com/portfolio/prelude/
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: prelude
-  matched_by: name-slug
+  x-name-collision: prelude
+  suggested_slug: preludesecurity-com
 - name: Prevalent
   url: http://www.prevalent.net/
   description: Prevalent is the leader in third-party risk management and cyber threat intelligence.
@@ -5934,10 +5557,10 @@ companies:
   sector: devops
   status: unknown
   source: https://www.insightpartners.com/portfolio/privado/
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: privado
-  matched_by: name-slug
+  x-name-collision: privado
+  suggested_slug: privadovpn-com
 - name: Privalia
   url: http://www.privalia.com/
   description: Privalia is a private sales club that organises the sale of leading name products at exceptional
@@ -5993,10 +5616,10 @@ companies:
   description: next-generation collaborative analytics platform for business users and data teams
   status: unknown
   source: https://www.insightpartners.com/portfolio/promethium/
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: promethium
-  matched_by: name-slug
+  x-name-collision: promethium
+  suggested_slug: pm61data-com
 - name: Promptfoo
   url: https://www.promptfoo.dev/
   description: Promptfoo is a widely adopted open source AI security testing platform, enabling enterprises
@@ -6037,17 +5660,6 @@ companies:
   is_api_provider: false
   slug: prose
   matched_by: domain
-- name: Prose
-  url: https://prose.com/
-  description: Prose is a custom hair care brand that offers consumers freshly-made products to meet their
-    unique hair and scalp needs.
-  sector: consumer
-  status: unknown
-  source: https://www.insightpartners.com/portfolio/prose/
-  in_network: true
-  is_api_provider: false
-  slug: prose
-  matched_by: domain
 - name: Punch Software
   description: Punch! Software was founded in 1998 with the premise that 3D design software should be
     as fun to use as it is productive.
@@ -6077,15 +5689,6 @@ companies:
   in_network: true
   is_api_provider: false
   slug: qbiq
-  matched_by: domain
-- name: Qonto
-  url: https://qonto.com/en/
-  description: Business Finance Management solution
-  status: unknown
-  source: https://www.insightpartners.com/portfolio/qonto/
-  slug: qonto
-  in_network: true
-  is_api_provider: true
   matched_by: domain
 - name: Qonto
   url: https://qonto.com/en/
@@ -6147,27 +5750,16 @@ companies:
   is_api_provider: false
   slug: kace
   matched_by: domain
-- name: Quest Software Inc.
-  url: http://www.quest.com/
-  description: Quest Software is a provider of application and information availability software solutions
-    that enhance the performance and reliability of an organization&#039;s e-business, enterprise and
-    custom applications.
-  status: unknown
-  source: https://www.insightpartners.com/portfolio/quest-software-inc/
-  in_network: true
-  is_api_provider: false
-  slug: kace
-  matched_by: domain
 - name: Quince
   url: https://www.onequince.com/
   description: leading luxury brands at a much lower price
   sector: consumer
   status: unknown
   source: https://www.insightpartners.com/portfolio/quince/
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: quince
-  matched_by: name-slug
+  x-name-collision: quince
+  suggested_slug: onequince-com
 - name: QuotaPath
   url: https://www.quotapath.com/
   description: QuotaPath empowers and aligns sales organizations.
@@ -6266,7 +5858,7 @@ companies:
   source: https://www.insightpartners.com/portfolio/relevance-ai/
   slug: relevance-ai
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   matched_by: domain
 - name: Relevize
   url: https://www.relevize.com/
@@ -6351,10 +5943,10 @@ companies:
     that helps retailers and brands increase sales.
   status: unknown
   source: https://www.insightpartners.com/portfolio/rithum/
-  slug: rithum
-  in_network: true
-  is_api_provider: true
-  matched_by: name-slug
+  in_network: false
+  is_api_provider: false
+  x-name-collision: rithum
+  suggested_slug: commercehub-com
 - name: Ritual
   url: https://ritual.co/
   description: Ritual connects hungry customers to the best restaurants and coffee shops in their neighborhood.
@@ -6468,7 +6060,7 @@ companies:
   status: unknown
   source: https://www.insightpartners.com/portfolio/safetyculture/
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   slug: safetyculture
   matched_by: domain
 - name: Saks Global (fka Saks Fifth Avenue)
@@ -6490,16 +6082,6 @@ companies:
   in_network: true
   is_api_provider: false
   slug: saks-off-5th
-  matched_by: domain
-- name: Salesloft
-  url: https://salesloft.com/
-  description: SalesLoft is the number one sales engagement platform, helping companies rise above the
-    noise and deliver the best experience for their customers and prospects.
-  status: unknown
-  source: https://www.insightpartners.com/portfolio/salesloft/
-  slug: salesloft
-  in_network: true
-  is_api_provider: true
   matched_by: domain
 - name: Salesloft
   url: https://salesloft.com/
@@ -6687,10 +6269,10 @@ companies:
     content focused exclusively on electronic music culture (EMC) and other world-class festivals.
   status: unknown
   source: https://www.insightpartners.com/portfolio/sfx/
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: sfx
-  matched_by: name-slug
+  x-name-collision: sfx
+  suggested_slug: sfxii-com
 - name: Shift5
   url: https://www.shift5.io/
   description: Shift5 is the OT cybersecurity company that protects the world’s transportation infrastructure
@@ -6736,10 +6318,9 @@ companies:
   description: real-time automation and control for cloud operations
   status: unknown
   source: https://www.insightpartners.com/portfolio/shoreline-software/
-  slug: shoreline
-  in_network: true
+  in_network: false
   is_api_provider: false
-  matched_by: domain
+  suggested_slug: shoreline-software
 - name: Showpad
   url: https://www.showpad.com/
   description: Showpad is the leading sales enablement platform for the modern seller.
@@ -6747,7 +6328,7 @@ companies:
   source: https://www.insightpartners.com/portfolio/showpad/
   slug: showpad
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   matched_by: domain
 - name: shunra
   url: http://www.shunra.com/
@@ -6776,10 +6357,10 @@ companies:
   sector: cybersecurity
   status: unknown
   source: https://www.insightpartners.com/portfolio/sift/
-  slug: sift
-  in_network: true
-  is_api_provider: true
-  matched_by: name-slug
+  in_network: false
+  is_api_provider: false
+  x-name-collision: sift
+  suggested_slug: siftscience-com
 - name: Silk
   url: https://www.silk.security/
   sector: cybersecurity
@@ -6789,16 +6370,6 @@ companies:
   is_api_provider: false
   slug: silk
   matched_by: domain
-- name: SimpleNexus
-  url: https://simplenexus.com/sn/
-  description: SimpleNexus, LLC is a digital mortgage solution provider, enabling lenders to originate
-    and process loans from anywhere.
-  status: unknown
-  source: https://www.insightpartners.com/portfolio/simplenexus/
-  in_network: true
-  is_api_provider: false
-  slug: simplenexus
-  matched_by: name-slug
 - name: SimpleNexus
   url: https://simplenexus.com/sn/
   description: SimpleNexus, LLC is a digital mortgage solution provider, enabling lenders to originate
@@ -6906,10 +6477,10 @@ companies:
     companies.
   status: unknown
   source: https://www.insightpartners.com/portfolio/slice/
-  slug: slice
-  in_network: true
-  is_api_provider: true
-  matched_by: name-slug
+  in_network: false
+  is_api_provider: false
+  x-name-collision: slice
+  suggested_slug: sliceglobal-com
 - name: Slice Pay
   url: https://www.sliceit.com/
   description: redesigning financial experiences for Gen Z and Millennials
@@ -7025,28 +6596,6 @@ companies:
   slug: sonarsource
   in_network: true
   is_api_provider: true
-  matched_by: domain
-- name: SonarSource
-  url: https://www.sonarsource.com/
-  description: SonarSource provides world-class solutions for continuous code quality.
-  sector: devops
-  status: unknown
-  source: https://www.insightpartners.com/portfolio/sonarsource/
-  slug: sonarsource
-  in_network: true
-  is_api_provider: true
-  matched_by: domain
-- name: Sourcegraph
-  url: https://about.sourcegraph.com/
-  description: Sourcegraph helps companies solve Big Code problems so developers can innovate faster.
-    Sourcegraph’s Universal Code Search is the only solution that empowers developers to easily search,
-    understand, and automate across all of their code.
-  sector: devops
-  status: unknown
-  source: https://www.insightpartners.com/portfolio/sourcegraph/
-  slug: sourcegraph
-  in_network: true
-  is_api_provider: false
   matched_by: domain
 - name: Sourcegraph
   url: https://about.sourcegraph.com/
@@ -7226,7 +6775,7 @@ companies:
   status: unknown
   source: https://www.insightpartners.com/portfolio/sweep/
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   slug: sweep
   matched_by: name-slug
 - name: Swimm
@@ -7329,16 +6878,6 @@ companies:
   in_network: true
   is_api_provider: true
   matched_by: domain
-- name: TaxJar
-  url: https://www.taxjar.com/
-  description: TaxJar is a leading technology for eCommerce businesses and developers to manage sales
-    tax.
-  status: unknown
-  source: https://www.insightpartners.com/portfolio/taxjar/
-  slug: taxjar
-  in_network: true
-  is_api_provider: true
-  matched_by: domain
 - name: TeamViewer
   url: http://www.teamviewer.com/
   description: TeamViewer is a proprietary computer software package for remote control, desktop sharing,
@@ -7387,7 +6926,7 @@ companies:
   source: https://www.insightpartners.com/portfolio/the-farmers-dog/
   in_network: true
   is_api_provider: false
-  slug: the-farmer-and-8217-s-dog
+  slug: the-farmers-dog
   matched_by: domain
 - name: The Modern Milkman
   url: https://themodernmilkman.co.uk/
@@ -7432,17 +6971,6 @@ companies:
   in_network: true
   is_api_provider: true
   matched_by: domain
-- name: Thycotic
-  url: https://delinea.com/thycotic/
-  description: Delinea is a leading provider of privileged access management (PAM) solutions that make
-    security seamless for the modern, hybrid enterprise.
-  sector: cybersecurity
-  status: unknown
-  source: https://www.insightpartners.com/portfolio/delinea-fka-thycoticcentrify/
-  slug: delinea
-  in_network: true
-  is_api_provider: true
-  matched_by: domain
 - name: Ticketmonster
   url: http://www.ticketmonster.co.kr/
   description: Founded in 2010, Ticket Monster is Korea&#039;s largest provider of daily deals.
@@ -7450,7 +6978,7 @@ companies:
   source: https://www.insightpartners.com/portfolio/ticketmonster/
   in_network: true
   is_api_provider: false
-  slug: airbility
+  slug: 21gram
   matched_by: domain
 - name: Tigera
   url: https://www.tigera.io/
@@ -7458,7 +6986,7 @@ companies:
   sector: cybersecurity
   status: unknown
   source: https://www.insightpartners.com/portfolio/tigera/
-  slug: calico
+  slug: tigera
   in_network: true
   is_api_provider: true
   matched_by: domain
@@ -7468,9 +6996,9 @@ companies:
     and value-adding data products that are enabling the future of financial services.
   status: unknown
   source: https://www.insightpartners.com/portfolio/tink/
-  slug: tink
+  slug: tink-com
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   matched_by: domain
 - name: Tintri
   url: http://go.tintri.com/
@@ -7582,9 +7110,9 @@ companies:
   sector: devops
   status: unknown
   source: https://www.insightpartners.com/portfolio/tricentis/
-  slug: test-plans
+  slug: tricentis
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   matched_by: domain
 - name: Trivago
   url: http://www.trivago.de/
@@ -7685,10 +7213,9 @@ companies:
   sector: consumer
   status: unknown
   source: https://www.insightpartners.com/portfolio/twitter/
-  slug: twitter
-  in_network: true
-  is_api_provider: true
-  matched_by: name-slug
+  in_network: false
+  is_api_provider: false
+  suggested_slug: twitter
 - name: TytoCare
   url: https://www.tytocare.com/
   description: TytoCare is transforming primary care by putting health in the hands of consumers.
@@ -7733,9 +7260,9 @@ companies:
     into their into their products.
   status: unknown
   source: https://www.insightpartners.com/portfolio/unit/
-  slug: unit
+  slug: patch-io
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   matched_by: domain
 - name: Unitrends
   url: http://www.unitrends.com/
@@ -7815,15 +7342,6 @@ companies:
   in_network: true
   is_api_provider: true
   slug: valimail
-  matched_by: domain
-- name: Vanilla
-  url: https://www.justvanilla.com/
-  description: wealth and estate platform
-  status: unknown
-  source: https://www.insightpartners.com/portfolio/vanilla/
-  in_network: true
-  is_api_provider: false
-  slug: vanilla
   matched_by: domain
 - name: Vanilla
   url: https://www.justvanilla.com/
@@ -7967,10 +7485,10 @@ companies:
   sector: healthcare
   status: unknown
   source: https://www.insightpartners.com/portfolio/virgin-pulse/
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: virgin-pulse
-  matched_by: name-slug
+  x-name-collision: virgin-pulse
+  suggested_slug: virginpulse-com
 - name: Visual Layer
   url: https://visual-layer.com/
   status: unknown
@@ -8120,7 +7638,7 @@ companies:
   status: unknown
   source: https://www.insightpartners.com/portfolio/websitepros/
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   slug: websitepros
   matched_by: domain
 - name: Weights & Biases
@@ -8206,10 +7724,9 @@ companies:
     stunning flash-based content online that is totally personalized and all without the need to code.
   status: unknown
   source: https://www.insightpartners.com/portfolio/wix-com/
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: wixcom
-  matched_by: name-slug
+  suggested_slug: wixcom
 - name: Wiz
   url: https://wiz.io/
   description: Wiz is a fast-growing cloud security innovator that helps companies secure their cloud
@@ -8310,15 +7827,6 @@ companies:
   is_api_provider: false
   slug: xchange-formerly-exchange-applications-inc
   matched_by: name-slug
-- name: xchange (Formerly Exchange Applications Inc.)
-  description: Xchange, formerly named Exchange Applications, helps companies earn a greater share of
-    their customers&#039; business through relevant, personalized customer communications.
-  status: unknown
-  source: https://www.insightpartners.com/portfolio/xchange-formerly-exchange-applications-inc/
-  in_network: true
-  is_api_provider: false
-  slug: xchange-formerly-exchange-applications-inc
-  matched_by: name-slug
 - name: Xelix
   description: Xelix&#039;s AI-powered platform bolts onto existing ERP and finance systems to detect
     payment errors and fraud, automate supplier statement reconciliations and streamline AP Helpdesk operations.
@@ -8385,10 +7893,10 @@ companies:
   sector: gaming
   status: unknown
   source: https://www.insightpartners.com/portfolio/yoom-fka-tetavi/
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: yoom-fka-tetavi
-  matched_by: name-slug
+  x-name-collision: yoom-fka-tetavi
+  suggested_slug: tetavi-com
 - name: Yubi (fka CredAvenue)
   url: https://www.go-yubi.com/
   description: Powering the global debt ecosystem through technology
@@ -8396,7 +7904,7 @@ companies:
   source: https://www.insightpartners.com/portfolio/yubi/
   in_network: true
   is_api_provider: false
-  slug: yubi-fka-credavenue
+  slug: yubi
   matched_by: domain
 - name: Zaius
   url: https://www.zaius.com/
